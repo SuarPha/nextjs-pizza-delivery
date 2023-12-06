@@ -1,0 +1,54 @@
+.container{
+    padding: 50px;
+    display: flex;
+
+   
+    .item{
+        flex: 1;
+    }
+    .table{
+        width: 100%;
+        border-spacing: 20px;
+        text-align: left;
+    }
+    hr{
+        width: 90%;
+    }
+    .button{
+        border: none;
+        color: #333;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .btn, .button:first-child{
+        background-color: #64c7e5 ;
+        margin-right: 10px;
+        border-radius: 5px;
+        width: auto;
+        padding:5%;
+        border: none;
+        &:hover {
+            color: rgb(17, 16, 8);
+            background-color: rgb(25, 209, 35);
+            border: 0.5px #333 solid;
+            &:before {
+              width: 100%;
+            }
+          }
+    }
+    .button:last-child{
+        color: #fff;
+        background-color: #f8180b ;
+        border-radius: 5px;
+        padding:5%;
+        &:hover {
+            color: rgb(17, 16, 8);
+            background-color: yellow;
+            border: 0.5px #333 solid;
+            &:before {
+              width: 100%;
+            }
+          }
+    }
+    
+}

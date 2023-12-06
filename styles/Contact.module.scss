@@ -1,0 +1,114 @@
+
+// Colors
+$blue:#313A3D;
+$orange:#FD9638;
+$dark-orange:darken($orange, 20%);
+$grey:#B6B6B6;
+$light-grey:lighten($grey, 15%);
+$background:#efefef;
+$field-color:#E8E9EA;
+
+.container{
+   	max-width:600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius:10px;
+    box-shadow: 1px 2px 3px #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    h1 {
+        text-align: center;
+    }
+
+    .inputContainer{
+        margin-bottom: 20px;
+    }
+   
+    .input{
+        width:100%;
+        padding: 5px;
+        outline: none;
+    }
+    .title{
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px 0;
+        font: 300 60px 'Oswald', sans-serif;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+      .form{
+         width:100%;
+		position:relative;
+		margin-bottom:15px;
+      }
+    .text{
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
+    input, textarea{
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #efefef;
+    color: white;
+    border-radius: 4px;
+    margin:10px;
+}
+	.btn{
+        text-align: center;
+    }	
+    .button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    background-color: #64c7e5;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    
+  }   
+
+}
+
+@media only screen and (max-width: 768px){
+    .styled-input {
+        width:100%;
+        font-size: 2.55rem;
+        line-height: 2.5rem;
+    }
+    .btn .button{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .footer{
+        display: block;
+        float: none;
+        width: 100%;
+     }
+   
+}
+@media only screen and (max-width: 640){
+    .styled-input {
+        width:100%;
+        font-size: 1.87rem;
+        line-height: 2.25rem;
+    }
+    .btn .button{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    
+   
+}

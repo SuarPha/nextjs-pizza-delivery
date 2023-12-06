@@ -1,0 +1,26 @@
+.container{
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    hr{
+        width:25%;
+        margin: auto;
+    }
+    .item{
+        padding-bottom:50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        font-weight: 300;
+        margin: 2rem;
+    }
+}

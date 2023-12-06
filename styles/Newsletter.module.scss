@@ -1,0 +1,43 @@
+.container{
+    height: 40vh;
+    background-color: #fcfaf6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .title{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .desc{
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .inputContainer{
+        width: 50%;
+        height: 40px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(255, 255, 255);
+    }
+    .input{
+        border: none;
+        flex: 8 ;
+        height: 5rem;
+    }
+    .button{
+        flex: 1;
+        height: 5rem;
+        border: 1px solid #e4e4e4;
+        cursor: pointer;
+
+         
+        &:hover {
+            background-color: #d0d0d0;
+            color: rgb(255, 255, 255);
+        }
+    }
+}

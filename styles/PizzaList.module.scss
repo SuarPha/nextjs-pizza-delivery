@@ -1,0 +1,43 @@
+$color: 
+#f46f06 ;
+$primary: #fff4f0;
+.container{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary;
+   // background: url('https://img.freepik.com/free-photo/wood-material-background-wallpaper-texture-concept_53876-16247.jpg?w=996&t=st=1672698260~exp=1672698860~hmac=55d934621549e9cbf07cf28dbbabb07e29ebfe27574a66bcafbb18d0e2a118c9');
+    
+    .desc{
+        color: #333;
+        width: 70%;
+        text-align: center;
+        padding: 10px 10px;
+        
+    }
+    hr{
+        width:25%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+     
+ }
+ 
+ @media screen and (max-width: 480px){
+    .title{
+        text-align: center;
+    }
+    .desc{
+        width: 90%;
+        text-align: center;
+    }
+}

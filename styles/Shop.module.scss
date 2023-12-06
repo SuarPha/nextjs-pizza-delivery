@@ -1,0 +1,39 @@
+$color: 
+#f46f06 ;
+$primary: #fff4f0;
+.container{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary;
+
+    hr{
+        width:25%;
+        margin: auto;
+    }
+    .desc{
+        color: #333;
+        width: 70%;
+        text-align: center;
+        padding: 30px 10px;
+   
+    }
+    .wrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+     }
+}
+@media screen and (max-width: 480px){
+    .title{
+        text-align: center;
+    }
+    .desc{
+        width: 90%;
+        text-align: center;
+    }
+}
